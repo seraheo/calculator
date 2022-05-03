@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.calculator{
+    width: 495px;
+    min-height: 500px;
+    border: 1px solid #f00;
+}
+
+.result{
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.keypad{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.keypad > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.button_style{
+    font-size: 36px;
+    -webkit-appearance: none;
+    width: 80px;
+    flex: 10 0 35px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 6px 6px 40px 1px rgba(0, 0, 255, .1);
+    background: linear-gradient(315deg, rgba(238,174,202,0.3505859375) 0%, rgba(148,187,233,0.35668349847560976) 100%);
+}
